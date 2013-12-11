@@ -1,0 +1,9 @@
+<!ENTITY SearchMyDataCookbookContext.label "placeholder label, set in ff-sidebar.js">
+<!ENTITY SearchMyDataCookbookContext.accesskey "Y">
+<!ENTITY SearchMyDataCookbookSidebar.label "Data Cookbook">
+<!ENTITY SearchMyDataCookbookSidebar.button "Preferences">
+<!ENTITY SearchMyDataCookbookSidebar.noresults "No search results yet.">
+<!ENTITY SearchMyDataCookbookSidebar.noresults_desc "Select some text and right-click to search your Data Cookbook.">
+
+<!ENTITY SearchMyDataCookbookSidebar.title "Data Cookbook Search Results">
+<!ENTITY SearchMyDataCookbookSidebar.content "This is the results pane for the search - really long phrase">

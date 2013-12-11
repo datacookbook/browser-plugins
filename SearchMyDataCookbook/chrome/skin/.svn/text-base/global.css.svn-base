@@ -1,0 +1,67 @@
+#context-SearchMyDataCookbook {
+	/* menu item for searching */
+}
+
+#SearchMyDataCookbook-preferences {
+	background-color: #999;
+}
+#prefPane {
+	/* main pane for preferences dialog */
+	background-color: #ffa;
+}
+
+#SearchMyDataCookbookSidebar {
+	background-color: #ddd;
+}
+
+#SearchMyDataCookbook-Results {
+	overflow: auto;
+}
+
+#SearchMyDataCookbook-Results-Div {
+	background-color: #eec;
+}
+
+h3 {
+	font-size: 12pt;
+}
+
+.prefBox {
+	padding: 10px;
+}
+
+.IDATA_services {
+	font-family: Arial;
+	font-size: 14pt;
+	padding: 2px;
+	background-color: #ffa;
+}
+
+.IDATA_DC_TermList {
+}
+
+.IDATA_DC_Term {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.IDATA_DC_TermName {
+	font-size: 12pt;
+	font-weight: Bold;
+}
+
+.IDATA_DC_FunctionalDefinition {
+	font-size: 8pt;
+	margin-left: 10px;
+}
+
+.IDATA_DC_URL {
+	font-size: 6pt;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.tinyButton {
+	font-size: 8pt;
+	font-family: Arial;
+}

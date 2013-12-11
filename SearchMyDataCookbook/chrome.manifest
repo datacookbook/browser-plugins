@@ -1,0 +1,6 @@
+content   SearchMyDataCookbook                 chrome/content/
+skin      SearchMyDataCookbook   classic/1.2   chrome/skin/
+locale    SearchMyDataCookbook   en-US         chrome/locale/en-US/
+
+
+overlay   chrome://browser/content/browser.xul   chrome://SearchMyDataCookbook/content/overlay.xul

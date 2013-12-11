@@ -1,0 +1,6 @@
+<!ENTITY prefwindow.title "Search my Data Cookbook preferences">
+<!ENTITY prefPane.title "Data Cookbook Preferences">
+<!ENTITY prefAccount.label "My Data Cookbook account:">
+<!ENTITY prefLogin.label "Login:">
+<!ENTITY prefPassword.label "Password:">
+<!ENTITY close.label "Close">

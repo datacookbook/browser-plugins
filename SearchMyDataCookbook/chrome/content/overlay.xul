@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://SearchMyDataCookbook/skin/global.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://SearchMyDataCookbook/locale/overlay.dtd">
+
+
+<overlay id="SearchMyDataCookbook-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="overlay.js"/>
+  <script src="ff-overlay.js"/>
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="SearchMyDataCookbook-strings" src="chrome://SearchMyDataCookbook/locale/overlay.properties"/>
+  </stringbundleset>
+
+  <popup id="contentAreaContextMenu">
+    <menuitem id="context-SearchMyDataCookbook" label="&SearchMyDataCookbookContext.label;"
+              insertafter="context-stop"
+              oncommand="SearchMyDataCookbook.onMenuItemCommand(event)"/>
+  </popup>
+
+
+  <menupopup id="viewSidebarMenu">
+    <menuitem label="&SearchMyDataCookbookSidebar.label;"
+                 oncommand="toggleSidebar('viewSidebar_SearchMyDataCookbook');" />
+  </menupopup>
+
+  <broadcasterset id="mainBroadcasterSet">
+    <broadcaster id="viewSidebar_SearchMyDataCookbook"
+                 label="&SearchMyDataCookbookSidebar.label;"
+                 autoCheck="false"
+                 type="checkbox"
+                 group="sidebar"
+                 sidebarurl="chrome://SearchMyDataCookbook/content/ff-sidebar.xul"
+                 sidebartitle="&SearchMyDataCookbookSidebar.title;"
+                 oncommand="toggleSidebar('viewSidebar_SearchMyDataCookbook');" />
+  </broadcasterset>
+
+
+
+</overlay>

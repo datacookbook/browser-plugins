@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://SearchMyDataCookbook/skin/global.css" type="text/css"?>
+<!DOCTYPE page SYSTEM "chrome://SearchMyDataCookbook/locale/overlay.dtd">
+
+<page id="SearchMyDataCookbookSidebar" title="&SearchMyDataCookbookSidebar.label;"
+		  xmlns:html="http://www.w3.org/1999/xhtml"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="ff-sidebar.js"/>
+
+	<vbox id="SearchMyDataCookbook-Results" flex="1">
+		<html:div id="SearchMyDataCookbook-Results-Div" class="IDATA_services" type="content">
+			<html:p class="IDATA_DC_TermName">No search results yet</html:p>
+			<html:p class="IDATA_DC_FunctionalDefinition">Select some text and right-click to search your Data Cookbook.</html:p>
+		</html:div>
+	</vbox>
+	<button class="tinyButton" label="&SearchMyDataCookbookSidebar.button;" 
+		oncommand='window.openDialog("chrome://SearchMyDataCookbook/content/options.xul","SearchMyDataCookbook-preferences", "chrome,titlebar,toolbar,centerscreen", this);' />
+
+</page>

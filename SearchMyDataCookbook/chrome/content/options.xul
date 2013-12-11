@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://SearchMyDataCookbook/skin/global.css" type="text/css"?>
+<!DOCTYPE prefwindow SYSTEM "chrome://SearchMyDataCookbook/locale/options.dtd">
+<prefwindow id="SearchMyDataCookbook-preferences" 
+			xmlns:html="http://www.w3.org/1999/xhtml"
+			xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" 
+			title="&prefwindow.title;">
+  <prefpane id="prefPane" label="&prefPane.title;">
+    <preferences>
+      <preference id="optAccount" name="extensions.SearchMyDataCookbook.account" type="string"/>
+      <preference id="optLogin" name="extensions.SearchMyDataCookbook.login" type="string"/>
+      <preference id="optPassword" name="extensions.SearchMyDataCookbook.password" type="string"/>
+    </preferences>
+	<vbox class="prefBox">
+		<label control="prefAccount">&prefAccount.label;</label>
+		<hbox>
+			https://<textbox size="10" id="prefAccount" preference="optAccount"/>.DataCookbook.com
+		</hbox>
+	</vbox>
+	<hbox class="prefBox">
+		<vbox>
+			<label flex="1" control="prefLogin">&prefLogin.label;</label>
+			<label flex="1" control="prefPassword">&prefPassword.label;</label>
+		</vbox>
+		<vbox>
+			<textbox flex="2" id="prefLogin" preference="optLogin"/>
+			<textbox type="password" flex="2" id="prefPassword" preference="optPassword"/>
+		</vbox>
+	</hbox>
+  </prefpane>
+</prefwindow>
