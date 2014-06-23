@@ -1,0 +1,40 @@
+{
+	"name": "Data Cookbook Search",
+	"manifest_version": 2,
+	"description": "Search Data Cookbook by highlighting a term on any web page.",
+	"version": "1.0",
+	"background": {
+		"scripts": [
+			"background.js"
+		]
+	},
+	"page_action": {
+		"default_icon": "logo.png",
+		"default_title": "Data Cookbook Search"
+	},
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": [
+				"DataCookbookSearchMain.js",
+				"DataCookbookSearchSideBar.js",
+				"IDataService.js"
+			],
+			"css": [
+				"skin.css",
+				"branding.css"
+			],
+			"run_at" : "document_start"
+		}
+	],
+	"permissions": [
+		"contextMenus",
+		"tabs",
+		"<all_urls>"
+	],
+	"web_accessible_resources" : [
+		"skin.css",
+		"branding.css",
+		"largelog.png"
+	]
+}

@@ -1,0 +1,48 @@
+#DataCookbookSearchStatusBar {
+	width: 16px;
+	margin: 0 5px;
+}
+
+#DataCookbookSearchResults {
+	overflow: auto;
+}
+
+.IDATA_services {
+	font-size: 14pt;
+	padding: 2px;
+	background-color: #ffa;
+}
+
+.IDATA_DC_TermList {
+}
+
+.IDATA_DC_Term {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.IDATA_DC_TermName {
+	font-size: 12pt;
+	font-weight: Bold;
+}
+
+.IDATA_DC_FunctionalDefinition {
+	font-size: 10pt;
+	margin-left: 10px;
+}
+
+.IDATA_DC_URL {
+	font-size: 10pt;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.IDATA_DC_LINK {
+	-moz-appearance: none;
+	background: none;
+	border: none;
+	text-decoration: underline;
+	padding: 0px;
+	margin: 0px;
+	cursor: pointer;
+}

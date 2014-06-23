@@ -1,0 +1,34 @@
+#DataCookbookSearchPreferences {
+	background-color: #00467f;
+}
+
+#DataCookbookSearchPreferencesPane {
+	background-color: #ffdd00;
+}
+
+#DataCookbookSearchResults {
+	background-color: #00467f;
+}
+
+#DataCookbookSearchResultsDiv {
+	background-color: #ffdd00;
+}
+
+#DataCookbookSearchSideBarLogo {
+	background-position: center;
+	background-color: #021E47;
+	background-image: url('largelogo.png');
+	background-repeat: no-repeat;
+	height: 70px;
+	width: 225px;
+}
+
+.IDATA_services {
+	font-family: Arial;
+	background-color: #ffffff;
+}
+
+.IDATA_DC_TermName {
+	background-color: none;
+	color: #000000;
+}
